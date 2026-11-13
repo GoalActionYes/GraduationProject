@@ -8,6 +8,8 @@
 
 工程已连接到 GitHub 的 `GoalActionYes/GraduationProject`，之后按较大功能完成并验证后推送。已制作蓝图起步版：实验关卡、物理球、相机、输入和重置。它是供学习和制作效果的基础，不是正式庭园或完整游戏。
 
+本轮实现提交：`9ef4564`，已推送至 GitHub，4 个 LFS 对象已上传，推送后核对远程提交一致。本页后续的提交可能仅更新交付记录。
+
 ## 下一次接手
 
 1. 双击根目录 `OpenProject.cmd`。启动关卡是 `/Game/Game/Maps/L_InteractionLab`，在内容浏览器中对应 `Content/Game/Maps/L_InteractionLab`。
