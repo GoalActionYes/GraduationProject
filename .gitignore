@@ -9,3 +9,5 @@ Saved/
 *.VC.db
 *.VC.opendb
 .codex/
+__pycache__/
+*.pyc

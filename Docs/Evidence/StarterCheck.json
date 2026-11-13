@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-13",
+  "engine": "5.8.4-58902052",
+  "project": "TouchAndTrigger",
+  "mode": "Blueprint-only",
+  "map": "/Game/Game/Maps/L_InteractionLab",
+  "compile": {
+    "BP_RollingBall": "passed, warnings_as_errors=True",
+    "BP_ExplorationMode": "passed"
+  },
+  "runtime": {
+    "W_roll_before": {
+      "location": {
+        "x": 0,
+        "y": 3.872634634846661e-18,
+        "z": 50.00000381401141
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "W_roll_after": {
+      "location": {
+        "x": 617.6083697000721,
+        "y": -2.3411635670600667e-13,
+        "z": 50.00000095915316
+      },
+      "rotation": {
+        "pitch": -50.02350677184527,
+        "yaw": -179.99999999999991,
+        "roll": 179.99999999999994
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "R_reset_after": {
+      "location": {
+        "x": 0,
+        "y": 3.842988481692761e-18,
+        "z": 50.000003815119676
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "mouse_orbit": "visual confirmation: grid orientation changed after relative mouse input; no numeric controlRotation readback"
+  },
+  "not_verified": [
+    "A/S/D individual directions",
+    "camera-relative movement after large rotation",
+    "fall recovery below -800cm",
+    "camera collision against walls",
+    "packaged build",
+    "performance budget",
+    "final contamination or water effects"
+  ],
+  "restart": {
+    "passed": true,
+    "map": "/Game/Game/Maps/L_InteractionLab",
+    "official_mcp": "connected after restart with selected toolsets",
+    "defaults": {
+      "rollAcceleration": 70,
+      "maxSpeed": 900,
+      "lookSensitivity": 0.5
+    }
+  },
+  "launcher": "repeated launch kept one UnrealEditor process"
+}
